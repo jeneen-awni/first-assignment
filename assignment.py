@@ -19,9 +19,7 @@ print(coffee_price)
 #Question 2
 points= 40
 points+=20   #40+20=60
-print(points)
 points-=10   #60-10=50
-print(points)
 points*=2     #50*2=100
 print(points)
 #whether customer is VIP (points >= 100)
