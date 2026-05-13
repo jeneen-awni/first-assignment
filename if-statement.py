@@ -34,18 +34,17 @@ total= Math+ Science+ History+ Geography+ English
 average= (total/500)*100
 print(average)
 #Check the final grade:
-if average>=85:
+if average >= 85:
     print("Excellent")
-if 75<=average<=84:
+if 75<=average < 85:
     print("Very Good")
-if 65<=average<=74:
+if 65 <= average < 75:
     print("Good")
-if 50<=average<=64:
+if 50 <=average < 65:
     print("Pass")
-if average<50:
+if average < 50:
     print("Fail")
 #The student can join the competition if:
-join_competition= (average>=85 and Math>=80) or (average<85 and Math>=90)
 if (average>=85 and Math>=80) or (average<85 and Math>=90):
     print("can_join")
 else:
